@@ -2,6 +2,8 @@
 
 set -e
 
+test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
+
 cat <<-VIM > ~/.vimrc
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
