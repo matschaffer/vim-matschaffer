@@ -13,7 +13,21 @@ mkdir -p ~/.vim/{autoload,bundle,backup}
 
 curl -s https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim > ~/.vim/autoload/pathogen.vim
 
-cd ~/.vim/bundle
-git clone https://github.com/tpope/vim-rails.git
-git clone https://github.com/matschaffer/vim-matschaffer.git
-cd -
+git_bundle() {
+  local url="$1"
+  local base="$HOME/.vim/bundle"
+  local name=`echo "$url" | awk -F/ '{print $NF}' | sed 's/.git$//'`
+  local directory="$base/$name"
+  if [[ -d "$directory" ]]; then
+    echo "Updating $url..."
+    cd "$directory"
+    git pull
+    cd - > /dev/null
+  else
+    echo "Retrieving $url..."
+    git clone "$url" "$directory"
+  fi
+}
+
+git_bundle https://github.com/tpope/vim-rails.git
+git_bundle https://github.com/matschaffer/vim-matschaffer.git
