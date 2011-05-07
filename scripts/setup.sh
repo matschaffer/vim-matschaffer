@@ -31,3 +31,5 @@ git_bundle() {
 
 git_bundle https://github.com/tpope/vim-rails.git
 git_bundle https://github.com/matschaffer/vim-matschaffer.git
+git_bundle https://github.com/tpope/vim-fugitive.git
+git_bundle https://github.com/mileszs/ack.vim.git
