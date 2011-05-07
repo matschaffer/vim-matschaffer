@@ -12,3 +12,7 @@ set wildmenu
 
 " Return cursor to start of edit after repeat
 nmap . .`[
+
+" Ignore case on search unless search has uppercase characters
+set ignorecase
+set smartcase
