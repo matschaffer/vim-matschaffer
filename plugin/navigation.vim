@@ -6,5 +6,9 @@ set foldlevelstart=99
 " Search as you type
 set incsearch
 
-" Use show tab completion conflicts
-set wildmode=list:longest,full
+" More bash-like tab completion
+set wildmode=longest,list,full
+set wildmenu
+
+" Return cursor to start of edit after repeat
+nmap . .`[

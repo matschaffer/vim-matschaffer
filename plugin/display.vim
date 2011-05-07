@@ -7,6 +7,10 @@ set showcmd
 " Show cursor and file position
 set ruler
 
-" Show whitespace
-set listchars=tab:>\ ,trail:⎵,extends:>,precedes:<,nbsp:+
+" Show whitespace as unicode chars
+set listchars=tab:‣\ ,trail:‿,extends:…,precedes:…,nbsp:˖
 set list
+
+" Mark the 81st column magenta
+highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
+match OverLength /\%81v./
