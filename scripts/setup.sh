@@ -6,6 +6,7 @@ test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
 
 cat <<-VIM > ~/.vimrc
 set nocompatible
+filetype on
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
