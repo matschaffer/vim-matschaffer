@@ -22,6 +22,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'vim-scripts/pbcopy.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'plasticboy/vim-markdown'
 
 Bundle 'JavaScript Indent'
 
