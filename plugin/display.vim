@@ -14,3 +14,5 @@ set list
 " Mark the 81st column magenta
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
 match OverLength /\%81v./
+
+colorscheme solarized
