@@ -25,7 +25,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'plasticboy/vim-markdown'
 
-Bundle 'JavaScript Indent'
+Bundle 'Simple-Javascript-Indenter'
 
 filetype plugin indent on
 VIM
