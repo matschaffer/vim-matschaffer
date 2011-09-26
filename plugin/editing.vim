@@ -9,7 +9,6 @@ set expandtab
 
 " remap jj to escape in insert mode
 inoremap jj <Esc>
-nnoremap JJJJ <Nop>
 
 " Swap ; and :
 nnoremap ; :
