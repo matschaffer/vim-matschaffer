@@ -10,10 +10,10 @@ set expandtab
 " remap jj to escape in insert mode
 inoremap jj <Esc>
 
-" Swap ; and :
-nnoremap ; :
-nnoremap : ;
-nnoremap q; q:
+" Safe semi-colon as colon
+" http://vim.wikia.com/wiki/Map_semicolon_to_colon
+map ; :
+nnoremap ;; ;
 
 " removes any empty spaces at end of the line when saving
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
