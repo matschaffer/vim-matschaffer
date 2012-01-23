@@ -5,7 +5,7 @@ nmap <leader>w :w!<cr>
 nmap <silent> <leader>s :set spell!<CR>
 
 " Show syntax highlighting groups
-nmap <C-p> :call <SID>SynStack()<CR>
+nmap <C-p>s :call <SID>SynStack()<CR>
 function! <SID>SynStack()
   if !exists("*synstack")
     return
