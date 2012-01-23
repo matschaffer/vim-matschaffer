@@ -5,10 +5,10 @@ nmap <leader>w :w!<cr>
 nmap <silent> <leader>s :set spell!<CR>
 
 " Show syntax highlighting groups
-nmap <C-p>s :call <SID>SynStack()<CR>
-function! <SID>SynStack()
+" use with :call SynStack()
+func! SynStack()
   if !exists("*synstack")
     return
-  endif
+  end
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-endfunc
+endf
