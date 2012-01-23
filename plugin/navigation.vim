@@ -16,3 +16,5 @@ nmap . .`[
 " Ignore case on search unless search has uppercase characters
 set ignorecase
 set smartcase
+
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*
