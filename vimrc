@@ -15,7 +15,6 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'Simple-Javascript-Indenter'
-Bundle 'closetag.vim'
 
 Bundle 'VimClojure'
 Bundle 'jpalardy/vim-slime'
