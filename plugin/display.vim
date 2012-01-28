@@ -8,7 +8,7 @@ set showcmd
 set ruler
 
 " Show whitespace as unicode chars
-set listchars=tab:‣\ ,trail:‿,extends:…,precedes:…,nbsp:˖
+set listchars=tab:‣\ ,trail:\ ,extends:…,precedes:…,nbsp:˖
 set list
 
 " Mark the 81st column magenta
