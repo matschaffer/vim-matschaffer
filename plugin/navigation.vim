@@ -17,4 +17,4 @@ nmap . .`[
 set ignorecase
 set smartcase
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png
