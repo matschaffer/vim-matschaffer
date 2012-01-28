@@ -5,10 +5,13 @@ nmap <leader>w :w!<cr>
 nmap <silent> <leader>s :set spell!<CR>
 
 " Show syntax highlighting groups
-" use with :call SynStack()
+nmap <leader>p :call SynStack()<CR>
 func! SynStack()
   if !exists("*synstack")
     return
   end
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endf
+
+" Gitx
+nmap <leader>g :!cd `dirname %` && gitx -c<CR>
