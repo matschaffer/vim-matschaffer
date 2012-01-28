@@ -13,11 +13,11 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
-
 Bundle 'Simple-Javascript-Indenter'
-
 Bundle 'VimClojure'
 Bundle 'jpalardy/vim-slime'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-ragtag'
 
 Bundle 'matschaffer/vim-matschaffer'
 
