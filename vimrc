@@ -18,6 +18,7 @@ Bundle 'VimClojure'
 Bundle 'jpalardy/vim-slime'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-ragtag'
+Bundle 'matschaffer/netrw-v142'
 
 Bundle 'matschaffer/vim-matschaffer'
 
