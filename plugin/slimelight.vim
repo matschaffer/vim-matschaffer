@@ -13,6 +13,13 @@ fun! s:ScreenTest(file)
   call s:ScreenSend(" -X stuff './script/test ".a:file."'")
 endf
 
+" Run a test file in screen using ./script/test
+map <leader>zr :call <SID>ScreenRake()<CR>
+fun! s:ScreenRake()
+  call s:ScreenSend(" -X stuff 'rake'")
+endf
+
+
 fun! s:ScreenSend(command)
   call system("appswitch -a Terminal")
   call system("appswitch -a MacVim")
