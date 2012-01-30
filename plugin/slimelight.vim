@@ -2,19 +2,19 @@
 " Requires appswitch to be installed and expects you're running MacVim
 " http://sabi.net/nriley/software/
 " This could be better
-map <leader>zz :call <SID>ScreenRerun()<CR>
+map <leader>ee :call <SID>ScreenRerun()<CR>
 fun! s:ScreenRerun()
   call s:ScreenSend(" -X stuff ''")
 endf
 
 " Run a test file in screen using ./script/test
-map <leader>zt :call <SID>ScreenTest(expand("%"))<CR>
+map <leader>et :call <SID>ScreenTest(expand("%"))<CR>
 fun! s:ScreenTest(file)
   call s:ScreenSend(" -X stuff './script/test ".a:file."'")
 endf
 
 " Run a test file in screen using ./script/test
-map <leader>zr :call <SID>ScreenRake()<CR>
+map <leader>er :call <SID>ScreenRake()<CR>
 fun! s:ScreenRake()
   call s:ScreenSend(" -X stuff 'rake'")
 endf
@@ -31,7 +31,7 @@ fun! s:ScreenSend(command)
 endf
 
 " Set the screen stuff config
-map <leader>zv :call <SID>ScreenConfig()<CR>
+map <leader>ev :call <SID>ScreenConfig()<CR>
 fun! s:ScreenConfig()
   if !exists("t:slime_config")
     let t:sl_config = {"sessionname": "", "windowname": "0"}
