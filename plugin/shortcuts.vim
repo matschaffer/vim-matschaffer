@@ -14,5 +14,5 @@ func! SynStack()
 endf
 
 " Gitx
-nmap <leader>gc :silent !cd %:p:h && gitx -c<CR>
+nmap <leader>gc :silent !cd %:p:h && gitx -c .<CR>
 nmap <leader>gp :!cd %:p:h && git pub<CR>
