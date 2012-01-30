@@ -24,7 +24,7 @@ fun! s:ScreenSend(command)
   call system("appswitch -a Terminal")
   call system("appswitch -a MacVim")
   if exists("t:sl_config")
-    call system("screen -S " . t:sl_config["sessionname"] . " -p " . t:sl_config["windowname"] . command)
+    call system("screen -S " . t:sl_config["sessionname"] . " -p " . t:sl_config["windowname"] . a:command)
   else
     call system("screen" . a:command)
   end
