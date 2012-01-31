@@ -19,6 +19,17 @@ fun! s:ScreenRake()
   call s:ScreenSend(" -X stuff 'rake'")
 endf
 
+" Merge current branch to master, test and deploy
+" Assumes `git pub` is available, see url for source:
+"   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
+map <leader>ed :call <SID>ScreenDeliver()<CR>
+fun! s:ScreenDeliver()
+  call s:ScreenSend(" -X stuff 'git pub'")
+  call s:ScreenSend(" -X stuff 'FEATURE=`git symbolic-ref HEAD`'")
+  call s:ScreenSend(" -X stuff 'git checkout master'")
+  call s:ScreenSend(" -X stuff 'git merge $FEATURE && git push origin master && rake test staging deploy'")
+endf
+
 
 fun! s:ScreenSend(command)
   call system("appswitch -a Terminal")
