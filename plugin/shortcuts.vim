@@ -15,4 +15,7 @@ endf
 
 " Gitx
 nmap <leader>gc :silent !cd %:p:h && gitx -c .<CR>
+
+" Git `pub` current project, see url for source:
+"   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
 nmap <leader>gp :!cd %:p:h && git pub<CR>
