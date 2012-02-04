@@ -4,7 +4,7 @@
 " This could be better
 map <leader>ee :call <SID>ScreenRerun()<CR>
 fun! s:ScreenRerun()
-  call s:ScreenSend(" -X stuff ''")
+  call s:ScreenSend(" -X stuff ''")
 endf
 
 " Run a test file in screen using ./script/test
