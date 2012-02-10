@@ -14,7 +14,10 @@ func! SynStack()
 endf
 
 " Gitx
-nmap <leader>gc :silent !cd %:p:h && gitx -c .<CR>
+nmap <leader>gc :call <SID>GitXCommit()<CR>
+func! s:GitXCommit()
+  call system("cd " . expand("%:p:h") . " && gitx -c")
+endf
 
 " Git `pub` current project, see url for source:
 "   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
