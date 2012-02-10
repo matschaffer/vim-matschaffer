@@ -24,16 +24,11 @@ endf
 "   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
 map <leader>ed :call <SID>ScreenDeliver()<CR>
 fun! s:ScreenDeliver()
-  call s:ScreenSend(" -X stuff 'git pub'")
-  call s:ScreenSend(" -X stuff 'FEATURE=`git symbolic-ref HEAD`'")
-  call s:ScreenSend(" -X stuff 'git checkout master'")
-  call s:ScreenSend(" -X stuff 'git merge $FEATURE && git push origin master && rake test staging deploy'")
+  call s:ScreenSend(" -X stuff './script/deliver'")
 endf
 
 
 fun! s:ScreenSend(command)
-  call system("appswitch -a Terminal")
-  call system("appswitch -a MacVim")
   if exists("t:sl_config")
     call system("screen -S " . t:sl_config["sessionname"] . " -p " . t:sl_config["windowname"] . a:command)
   else
