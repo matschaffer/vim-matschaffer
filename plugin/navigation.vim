@@ -17,3 +17,8 @@ set ignorecase
 set smartcase
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png
+
+" Use alt+arrows & backspace assuming they're set up to work for bash
+inoremap <Esc>b <C-o>b
+inoremap <Esc>f <C-o>w
+inoremap <Esc><BS> <C-o>db
