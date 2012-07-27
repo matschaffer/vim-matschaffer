@@ -22,3 +22,6 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
 inoremap <Esc>b <C-o>b
 inoremap <Esc>f <C-o>w
 inoremap <Esc><BS> <C-o>db
+
+" netrw tree mode
+let g:netrw_liststyle=3
