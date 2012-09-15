@@ -14,13 +14,19 @@ Bundle 'bbommarito/vim-slim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
-Bundle 'jiangmiao/simple-javascript-indenter'
+Bundle 'pangloss/vim-javascript'
 Bundle 'VimClojure'
 Bundle 'jpalardy/vim-slime'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-ragtag'
 Bundle 'mattn/zencoding-vim'
 Bundle 'avakhov/vim-yaml'
+
+" From Janus
+Bundle 'tpope/vim-unimpaired'
+Bundle 'scrooloose/nerdcommenter.git'
+Bundle 'edsono/vim-matchit'
+Bundle 'ervandew/supertab'
 
 " Powerline
 let g:Powerline_symbols = 'fancy'
