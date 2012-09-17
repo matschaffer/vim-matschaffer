@@ -11,6 +11,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-markdown'
 Bundle 'bbommarito/vim-slim'
+let g:ctrlp_root_markers = ['Gemfile']
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
