@@ -15,7 +15,7 @@ let g:ctrlp_root_markers = ['Gemfile']
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
-Bundle 'jiangmiao/simple-javascript-indenter'
+Bundle 'pangloss/vim-javascript'
 Bundle 'VimClojure'
 Bundle 'jpalardy/vim-slime'
 Bundle 'tpope/vim-surround'
@@ -23,6 +23,16 @@ Bundle 'tpope/vim-ragtag'
 Bundle 'mattn/zencoding-vim'
 Bundle 'avakhov/vim-yaml'
 Bundle 'Align'
+
+" From Janus
+Bundle 'tpope/vim-unimpaired'
+Bundle 'scrooloose/nerdcommenter.git'
+Bundle 'edsono/vim-matchit'
+Bundle 'ervandew/supertab'
+
+" Powerline
+let g:Powerline_symbols = 'fancy'
+Bundle 'Lokaltog/vim-powerline'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
