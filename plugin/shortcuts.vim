@@ -30,3 +30,6 @@ endfunction
 " Git `pub` current project, see url for source:
 "   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
 nmap <leader>gp :!cd %:p:h && git pub<CR>
+
+" Send (stop) via vim-islime2, for overtone
+nnoremap <leader>cs :ISlime2 (stop)<CR>
