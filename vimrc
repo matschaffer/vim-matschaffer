@@ -22,6 +22,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-ragtag'
 Bundle 'mattn/zencoding-vim'
 Bundle 'avakhov/vim-yaml'
+Bundle 'Align'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
