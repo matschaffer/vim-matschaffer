@@ -39,7 +39,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_color_change_percent = 3
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
-Bundle 'nathanaelkane/vim-indent-guides'
+" Bundle 'nathanaelkane/vim-indent-guides'
 
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
