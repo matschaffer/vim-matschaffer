@@ -1,1 +1,1 @@
-iabbrev rdebug require 'ruby-debug'; debugger; 1
+iabbrev rdebug require 'debugger'; debugger; 1
