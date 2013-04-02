@@ -24,14 +24,14 @@ Bundle 'mattn/zencoding-vim'
 Bundle 'avakhov/vim-yaml'
 Bundle 'Align'
 
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 " From Janus
 Bundle 'tpope/vim-unimpaired'
 Bundle 'scrooloose/nerdcommenter.git'
 Bundle 'edsono/vim-matchit'
 Bundle 'ervandew/supertab'
 
-" Powerline
-set rtp+=~/.powerline/powerline/bindings/vim
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
