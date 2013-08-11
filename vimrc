@@ -10,7 +10,6 @@ Bundle 'vim-scripts/pbcopy.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-markdown'
-Bundle 'bbommarito/vim-slim'
 let g:ctrlp_root_markers = ['Gemfile']
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-ruby/vim-ruby'
@@ -26,14 +25,13 @@ Bundle 'avakhov/vim-yaml'
 Bundle 'Align'
 Bundle 'tpope/vim-commentary'
 
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 " From Janus
 Bundle 'tpope/vim-unimpaired'
 Bundle 'edsono/vim-matchit'
 Bundle 'ervandew/supertab'
 
-" Powerline
-let g:Powerline_symbols = 'fancy'
-Bundle 'Lokaltog/vim-powerline'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
