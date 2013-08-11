@@ -24,10 +24,10 @@ Bundle 'tpope/vim-ragtag'
 Bundle 'mattn/zencoding-vim'
 Bundle 'avakhov/vim-yaml'
 Bundle 'Align'
+Bundle 'tpope/vim-commentary'
 
 " From Janus
 Bundle 'tpope/vim-unimpaired'
-Bundle 'scrooloose/nerdcommenter.git'
 Bundle 'edsono/vim-matchit'
 Bundle 'ervandew/supertab'
 
