@@ -42,6 +42,8 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 " Bundle 'nathanaelkane/vim-indent-guides'
 
+Bundle 'jnwhiteh/vim-golang'
+
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
 
