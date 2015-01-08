@@ -16,7 +16,7 @@ nmap . .`[
 set ignorecase
 set smartcase
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc,*/out/*
 
 " Use alt+arrows & backspace assuming they're set up to work for bash
 inoremap <Esc><BS> <C-o>db
