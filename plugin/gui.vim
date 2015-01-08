@@ -1,2 +1,3 @@
 set guioptions=egmrt
-set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h12
+
+set guifont=Sauce\ Code\ Powerline\ Light:h14
