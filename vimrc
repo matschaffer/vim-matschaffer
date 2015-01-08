@@ -25,7 +25,7 @@ Bundle 'avakhov/vim-yaml'
 Bundle 'Align'
 Bundle 'tpope/vim-commentary'
 
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'bling/vim-airline'
 
 " From Janus
 Bundle 'tpope/vim-unimpaired'
