@@ -32,6 +32,7 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'edsono/vim-matchit'
 Bundle 'ervandew/supertab'
 
+Bundle 'vim-terraform'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
@@ -40,7 +41,7 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 " Bundle 'nathanaelkane/vim-indent-guides'
 
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'fatih/vim-go'
 
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
